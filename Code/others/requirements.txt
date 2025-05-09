@@ -1,0 +1,11 @@
+transformers
+accelerate
+bitsandbytes
+evaluate
+gradio
+datasets
+rouge-score
+bert-score
+nltk
+sentence-transformers
+

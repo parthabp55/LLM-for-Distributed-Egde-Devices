@@ -1,0 +1,18 @@
+// This file defines the gRPC service and message formats.
+
+syntax = "proto3";
+
+service TimeService {
+  rpc GetCurrentTime (TimeRequest) returns (TimeResponse);
+}
+
+message TimeRequest {}
+
+message TimeResponse {
+  string current_time = 1;
+}
+
+
+// Compile the gRPC Code: python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. time_service.proto
+
+

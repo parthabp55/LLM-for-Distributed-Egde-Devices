@@ -1,0 +1,9 @@
+This file lists all required Python libraries.
+
+grpcio
+grpcio-tools
+fastapi
+uvicorn
+
+Install Dependencies : pip install -r requirements.txt
+
